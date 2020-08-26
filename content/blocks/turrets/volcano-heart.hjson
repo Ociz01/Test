@@ -16,7 +16,7 @@
     shootCone: 5
     itemCapacity: 40
     ammo: {
-        ore-stone: {
+        stonе: {
             speed: 1
             lifetime: 200
             damage: 2200
