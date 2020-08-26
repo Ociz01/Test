@@ -1,0 +1,87 @@
+{
+    type: ArtilleryTurret
+    name: "volcano heart"
+    description: "a massive turret that fires fiery stone."
+    targetAir: true
+    health: 100
+    size: 3
+    recoil: 10
+    reload: 300
+    range: 100
+    ammoUseEffect: shellEjectBig
+    inaccuracy: 0.0
+    shots: 1
+    ammoPerShot: 10
+    rotatespeed: 1.0
+    shootCone: 5
+    itemCapacity: 40
+    ammo: {
+        ore-stone: {
+            speed: 1
+            lifetime: 200
+            damage: 2200
+            type: missileBulletType
+            bulletSprite: lopata-mod-bullet-stone
+            bulletWidht: 7
+            bulletHeight: 9
+            bulletShrink: 0
+            backColor: FFFFFF
+            frontColor: FFFFFF
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
+            
+            ammoMultiplier: 1
+            backColor: FF3333
+            frontColor: FF3333
+            splashDamageRadius: 10
+            splashDamage: 700
+fragBullets: 1
+		    fragBullet: {
+	            damage: 2100
+	            speed: 1.0
+	            lifetime: 200
+	            type: missileBulletType
+bulletSprite: lopata-mod-bullet-stone
+bulletWidht: 50
+            bulletHeight: 5
+            bulletShrink: 0
+				fragBullets: 1
+				splashDamageRadius: 10
+	            splashDamage: 40
+			    fragBullet: {
+		            damage: 2000
+		            speed: 1.0
+		            lifetime: 200
+					splashDamageRadius: 5
+		            splashDamage: 40
+					type:missileBulletType
+bulletWidht: 50
+            bulletHeight: 5
+            bulletShrink: 0
+bulletSprite: lopata-mod-bullet-stone
+				}
+	        }
+			type: missileBulletType
+bulletSprite: lopata-mod-bullet-stone
+bulletWidht: 50
+            bulletHeight: 5
+            bulletShrink: 0
+			reloadMultiplier: 1.0
+			bulletWidth: 25
+			bulletHeight: 5
+			shootEffect: shootBig
+			smokeEffect: shootBigSmoke
+			ammoMultiplier: 1
+			frontColor: FFFFFF
+			backColor: FFFFFF
+		}
+    }
+    requirements: [
+       metaglass/650
+       thorium/250
+	   plastanium/200
+       silicon/220
+    ]
+    category: turret
+    research: duo
+}
