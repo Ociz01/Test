@@ -22,8 +22,8 @@
             damage: 2200
             type: missileBulletType
             bulletSprite: lopata-mod-bullet-stone
-            bulletWidht: 7
-            bulletHeight: 9
+            bulletWidht: 5
+            bulletHeight: 10
             bulletShrink: 0
             backColor: FFFFFF
             frontColor: FFFFFF
