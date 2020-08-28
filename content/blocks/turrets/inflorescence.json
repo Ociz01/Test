@@ -1,0 +1,31 @@
+{
+ "type": "ChargeTurret",
+ "name": "inflorescence",
+ "description": "Хрупкая энергетическая  турель",
+ "health": "500",
+ "size": "2",
+ "reload": "100",
+ "range": "120",
+ "chargeTime": "4",
+ "chargeMaxDelay": "1",
+ "chargeEffects": 5
+ "cooldown": "1",
+ "recoil": "0",
+ "powerUse": "5"
+ "shootShake": "0",
+ "shootEffect": "smoke",
+ "smokeEffect": "smoke",
+ "chargeEffect": "smoke",
+  "chargeBeginEffect": smoke
+ "shootType": "lancerLaser"
+ "inaccuracy": "0",
+ "rotatespeed": "40",
+ "requirements": [
+		{ "item": "metaglass", "amount": 230 },
+		{ "item": "titanium", "amount": 280 },
+		{ "item": "silicon", "amount": 90},
+ ],
+ "category": "turret"
+ "shootSound": "laser"
+ "research": "duo"
+}
