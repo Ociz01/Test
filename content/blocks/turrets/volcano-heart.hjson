@@ -16,14 +16,14 @@
     shootCone: 5
     itemCapacity: 40
     ammo: {
-        stonе: {
+        cobblestone: {
             speed: 1
             lifetime: 200
             damage: 2200
             type: missileBulletType
-            bulletSprite: lopata-mod-bullet-stone
-            bulletWidht: 5
-            bulletHeight: 10
+            bulletSprite: lopata-mod-bullet-cobblestone
+            bulletWidht: 50
+            bulletHeight: 5
             bulletShrink: 0
             backColor: FFFFFF
             frontColor: FFFFFF
@@ -41,7 +41,7 @@ fragBullets: 1
 	            speed: 1.0
 	            lifetime: 200
 	            type: missileBulletType
-bulletSprite: lopata-mod-bullet-stone
+bulletSprite: lopata-mod-bullet-cobblestone
 bulletWidht: 50
             bulletHeight: 5
             bulletShrink: 0
@@ -58,11 +58,11 @@ bulletWidht: 50
 bulletWidht: 50
             bulletHeight: 5
             bulletShrink: 0
-bulletSprite: lopata-mod-bullet-stone
+bulletSprite: lopata-mod-bullet-cobblestone
 				}
 	        }
 			type: missileBulletType
-bulletSprite: lopata-mod-bullet-stone
+bulletSprite: lopata-mod-bullet-cobblestone
 bulletWidht: 50
             bulletHeight: 5
             bulletShrink: 0

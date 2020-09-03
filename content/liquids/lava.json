@@ -1,8 +1,0 @@
-{
-	"name": "Lava",
-	"description": "1000°",
-	"temperature":2,
-    "viscosity": 0.65,
-    "effect": "tarred",
-    "color": "FFF00D"
-}
